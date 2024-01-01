@@ -125,3 +125,10 @@ function copyToClipboard() {
     window.getSelection().removeAllRanges();
     
 }
+
+
+function clearAll(){
+    const textarea = document.getElementById('input');
+    textarea.value='';
+    textarea.focus();
+}
